@@ -1,0 +1,26 @@
+{
+  "name": "node-desktop-app",
+  "version": "1.0.0",
+  "description": "a template app with generic features for a desktop node app including internal express server, template engine, sqlite db, and possibly a licence mecanism\t",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon"
+  },
+  "keywords": [
+    "node",
+    "desktop",
+    "express",
+    "sqlite"
+  ],
+  "author": "jotsamikael@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "sqlite3": "^5.1.7"
+  }
+}
